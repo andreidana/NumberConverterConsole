@@ -2,7 +2,7 @@
 
 namespace NumericConverter
 {
-    public class BinaryConverter: NumericConverter
+    public class BinaryConverter: GenericConverter
     {
         public BinaryConverter()
         {

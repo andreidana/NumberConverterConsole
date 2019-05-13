@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NumericConverter
 {
@@ -10,6 +6,10 @@ namespace NumericConverter
     {
         static void Main(string[] args)
         {
+            GenericConverter converter = new BinaryConverter();
+            int convertedValue = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(converter.Convert(convertedValue));
+            Console.ReadLine();
         }
     }
 }

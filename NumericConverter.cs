@@ -2,10 +2,10 @@
 
 namespace NumericConverter
 {
-    public class NumericConverter
+    public class GenericConverter
     {
-        public int baseValue;
-        public int minimumValue;
+        protected int baseValue;
+        protected int minimumValue;
 
         public string Convert(int inputNumber)
         {

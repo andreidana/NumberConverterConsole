@@ -1,6 +1,6 @@
 ﻿namespace NumericConverter
 {
-    public class BaseThreeConverter: NumericConverter
+    public class BaseThreeConverter: GenericConverter
     {
         public BaseThreeConverter()
         {
